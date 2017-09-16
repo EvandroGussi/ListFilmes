@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilFilme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etFilme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Novo nome"
+            android:inputType="text"
+            android:maxLines="1"
+            android:text="" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+        <Button
+
+            android:id="@+id/btDeletar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:onClick="btDelete"
+            android:text="Excluir"
+            android:gravity="center"/>
+
+        <Button
+
+            android:id="@+id/btLigar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="btLigar"
+            android:text="Ligar"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <Button
+
+            android:id="@+id/btECompartilhar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:onClick="btComp"
+            android:text="Compartilhar"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+
+                android:id="@+id/btEditar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:onClick="btEditar"
+                android:layout_weight="1"
+                android:text="Editar"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>

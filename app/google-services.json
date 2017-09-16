@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "173422481085",
+    "firebase_url": "https://anotacoes-ed65f.firebaseio.com",
+    "project_id": "anotacoes-ed65f",
+    "storage_bucket": "anotacoes-ed65f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173422481085:android:4e77ec4a9c958a7c",
+        "android_client_info": {
+          "package_name": "com.example.evandro.app13mob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173422481085-3mrdduuui8jgasgonmnmajirho0vd823.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.evandro.app13mob",
+            "certificate_hash": "84d7406b05a75c5fbb0df6456c64029eb8359d37"
+          }
+        },
+        {
+          "client_id": "173422481085-70emm51h6lqbjqkn9sm7vga47n8gcc1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj5JB4CFipiVu4Qslk86EUIvy7F98jYqE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173422481085-70emm51h6lqbjqkn9sm7vga47n8gcc1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
